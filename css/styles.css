@@ -1,0 +1,131 @@
+
+
+
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.wallpeper{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.15;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.div-wallpeper{
+    background-image: url("../img/citronnier.png");
+    background-position: center;
+}
+
+.plant-wallpeper{
+    height: 295vh;
+    width: 100%;
+    opacity: 0.15;
+    position: absolute;
+    z-index: -1;
+}
+
+.h5-slide {
+    text-shadow: 1px 1px 2px black;
+    font-size: 2em;
+
+}
+
+.p-slide{
+    text-shadow: 1px 1px 2px black;
+    font-size: 1em;
+}
+
+.img-carou{
+    height: 93vh;
+}
+
+@media screen and (max-width: 992px){
+    .img-carou{
+        height: auto;
+        width: 100em;
+    }
+}
+
+.nav-back{
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.title{
+    padding-top: 1em;
+    text-align: center;
+    color: navy;
+}
+
+.litle-title{
+    color: #008080;
+}
+
+.text-red{
+    color:green;
+    font-weight: bold;
+}
+
+.nothing{
+    width: 33vw;
+}
+
+.description{
+    width: 67vw;
+    margin-left:2em;
+}
+
+.picture{
+    width: 250px;
+    height: 200px;
+    border-radius: 100% 100% 0% 0%;
+
+}
+
+.info{
+    width: 250px;
+    height: 150px;
+    border-radius: 0% 0% 100% 100%;
+    background-color: oldlace;
+    align-items: center;
+    justify-content: center;
+}
+
+.plant{
+    padding: 3%;
+    width: 350px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-describ:hover{
+    color: blue;
+
+}
+
+.info-describe{
+    background-color: none;
+}
+
+.img-home{
+    width: 25vw;
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+
+}

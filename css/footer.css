@@ -1,0 +1,48 @@
+.social-media{
+    width: 40px;
+    height: 40px;
+    margin:1em;
+}
+
+.social{
+
+    justify-content: center;
+}
+.foot{
+    color: wheat;
+
+    text-align: center;
+}
+footer{
+    background-color: green;
+}
+
+.link{
+    font-weight: bold;
+    text-decoration: none;
+    color: wheat;
+    
+}
+
+.geranium{
+    
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-geranium{
+    color: wheat;
+    margin: 1em;
+}
+
+.img-geranium{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.copirite{
+    padding-bottom: 1em;
+}
